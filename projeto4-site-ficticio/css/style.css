@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    background: #fff url(../imagens/fundo.png) repeat-x;
+}
+#container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+/*TOPO*/
+#topo {
+    height: 150px;
+    padding-top: 25px;
+    background: url(../imagens/detalhe-topo.png) no-repeat right top;
+}
+.logo {
+    width: 152px;
+    height: 66px;
+    background: url(../imagens/logo.png) no-repeat;
+    text-indent: -3000px;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#topo ul {
+    background: #b10333;
+    margin-top: 30px;
+    float: left;
+}
+#topo ul li {
+    float: left;
+}
+#topo ul a {
+    font-size: 0.9em;
+    display: block;
+    padding: 0.5em 1.5em;
+    line-height: 2.1em;
+    text-decoration: none;
+    color: #fff;
+    background: url(../imagens/divisor.png) no-repeat left center;
+}
+#topo ul .primeiro a { /*remover primeiro divisor*/
+    background: none;
+}
+#topo ul a:hover {
+    color: #69001d;
+}
+
+/*marcação de barra*/
+body.home #navegacao a#home,
+body.brasil #navegacao a#brasil,
+body.ciencia #navegacao a#ciencia,
+body.economia #navegacao a#economia,
+body.fotos #navegacao a#fotos,
+body.internacional #navegacao a#internacional,
+body.saude #navegacao a#saude {
+    color: #fff;
+    background: #de003e;
+    cursor: text;
+}
+
+/***** COLUNAS / lateral-primário-secundário *****/
+#conteudo {
+    margin-top: 60px;
+    background: #f5f5f5;
+}
+#lateral {
+    width: 190px;
+    float: left;
+    margin: 0 0 20px -800px;
+}
+#primario {
+    width: 280px;
+    float: left;
+    margin: 0 0 20px 215px;
+}
+#duas-colunas #primario {
+    width: 560px; 
+}
+#uma-coluna #primario {
+    width: 800px;
+    margin: 0 0 20px 0;
+}
+#secundario {
+    width: 280px;
+    float: left;
+    margin: 0 0 20px 25px;
+}
+
+/*LATERAL / conteúdo*/
+.caixa {
+    background: #f3f3f3 url(../imagens/fundo-caixa.png);
+    margin: 10px 0;
+    padding: 8px;
+}
+h2 {
+    background: #294c71;
+    color: #fff;
+    font-size: 1.1em;
+    padding: 5px;
+    text-align: center;
+}
+.caixa-conteudo {
+    background: #fff;
+    padding: 5px;
+    margin-top: 5px;
+}
+#lateral ul a {
+    font-size: 0.9em;
+    padding: 3px;
+    display: block;
+    line-height: 30px;
+    color: #000;
+    text-decoration: none;
+    border: 1px solid #f3f3f3;
+}
+#lateral ul a:hover {
+    color: #a1a1a1;
+    background: #f9f9f9 url(../imagens/marcador.png) no-repeat left center;
+    padding-left: 20px;
+}
+
+/*LATERAL / botão*/
+label {
+    display: block;
+    cursor: pointer;
+}
+input {
+    margin-top: 10px;
+    font-size: 0.9em;
+    background-color: #fff;
+    padding: 5px;
+    width: 140px;
+    border: 1px solid #b3b3b3;
+}
+input.submit {
+    width: 80px;
+    padding: 5px;
+    color: #fff;
+    background-color: #b10333;
+    border: 1px solid #870529;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/*PRIMÁRIO / destaque*/
+img.imagem-principal {
+    width: 98%;
+    border: 3px solid #dfdfdf;
+}
+h3 {
+    text-transform: uppercase;
+    display: inline;
+    font-size: 0.8em;
+    padding: 3px;
+    background: #b10333;
+    color: #fff;
+}
+
+/*ÁREA DE NOTÍCIAS / primário-secundário*/
+#lista-noticias li {
+    padding: 2px;
+    border-bottom: 1px solid #ccc;
+    height: 62px;
+}
+#lista-noticias li a img {
+    float: left;
+    margin: 5px;
+}
+#lista-noticias li a {
+    text-decoration: none;
+}
+#lista-noticias li a h3 {
+    background: none;
+    color: #3e7ab9;
+    padding: 0;
+}
+#lista-noticias li a p {
+    font-size: 0.8em;
+}
+#lista-noticias li:hover {
+    background: #eee;
+    cursor: pointer;
+}
+
+/*RODAPE*/
+#rodape {
+    background: #294c71;
+    padding: 20px;
+}
+.rodape {
+    width: 800px;
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+}
+
+/*BRASIL*/
+#primario .caixa-conteudo .p {
+    margin-top: 20px;
+}
+#primario .caixa-conteudo .p1 {
+    margin: 10px;
+}
+#primario .caixa-conteudo .p span {
+    font-style: italic;
+    font-weight: bold;
+}
+#primario .caixa-conteudo .img {
+    margin-top: 20px;
+    border: 3px solid #dfdfdf;
+}
+#primario .caixa-conteudo .img1 {
+    margin-top: 10px;
+}
