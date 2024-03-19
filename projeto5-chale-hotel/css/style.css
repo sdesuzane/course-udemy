@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Helvetica, "Trebuchet MS", sans-serif;
+    background:#fbf3bc;
+    margin: 15px;
+}
+#container {
+    margin: 0 auto;
+    min-width: 740px;
+    max-width: 1190px;
+    /* position: relative; */
+}
+
+/***** TOPO *****/
+#topo {
+    position: relative;
+    background: #dbcd97;
+    height: 15.4em;
+    min-height: 250px;
+}
+/*logo*/
+#topo #area-logo {
+    position: absolute;
+    background: url(../imagens/topo-imagem-principal.png) no-repeat;
+    width: 100%;
+    height: 250px;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.logo a {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    z-index: 3;
+    background: url(../imagens/logo.png) no-repeat;
+    width: 151px;
+    height: 66px;
+    text-indent: -3000px;
+}
+/*menu*/
+#topo #area-menu {
+    position: absolute;
+    background: url(../imagens/topo-imagem-lateral.png) no-repeat;
+    width: 450px;
+    height: 250px;
+    top: 0;
+    right: 0;
+    z-index: 2;
+}
+.conteudo-menu {
+    margin-left: 90px;
+    margin-right: 15px;
+    padding-top: 15px;
+
+}
+.menu-locais {
+    border-bottom: 1px solid #b5ab56;
+    border-top: 1px solid #b5ab56;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 0.8em;
+    color: #8b8448;
+    line-height: 1.8em;
+}
+.locais {
+    float: left;
+    line-height: 2.5em;
+}
+a {
+    text-decoration: none;
+}
+a.reservar {
+    text-transform: uppercase;
+    background: #a29750;
+    color: #fff5b0;
+    padding: 5px 10px;
+    float: right;
+}
+/*menu vertical*/
+.menu {
+    margin-top: 15px;
+}
+ul {
+    list-style: none;
+}
+ul.navegacao {
+    float: left;
+}
+ul.navegacao a {
+    text-transform: uppercase;
+    font-size: 0.8em;
+    padding: 5px;
+    line-height: 30px;
+    color: #6e672c;
+}
+ul.navegacao a:hover {
+    background: #fdf6de;
+}
+.depoimento {
+    width: 220px;
+    height: 164px;
+    float: right;
+}
+
+/***** ÁREA DE CONTEÚDO *****/
+#texto {
+    float: left;
+    width: 50%;
+    padding: 20px 0;
+}
+h2 {
+    font-size: 1.2em;
+    color: #6e672c;
+    padding: 5px 0;
+}
+p {
+    font-size: 1em;
+    margin-bottom: 5px;
+    padding: 5px 0;
+}
+
+#lateral {
+    float: right;
+    width: 50%;
+    padding: 20px 0;
+}
+.conteudo {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.lista-conteudo li {
+    padding: 8px;
+    border-bottom: 1px solid  #faf8ea;
+    height: 6em;
+}
+.lista-conteudo li a img {
+    float: left;
+    margin-right: 8px;
+}
+.lista-conteudo li a p {
+    font-size: 0.8em;
+}
+.lista-conteudo li a h3 {
+    background: url(../imagens/ornamento.png) no-repeat center right;
+    color: #6e672c;
+    padding: 5px 0;
+    font-size: 1.1em;
+}
+.lista-conteudo li:hover {
+    background: #f6f3d6;
+    cursor: pointer;
+}
+
+#rodape {
+    clear: both;
+    padding: 16px;
+    color: #6e672c;
+    text-align: center;
+}
