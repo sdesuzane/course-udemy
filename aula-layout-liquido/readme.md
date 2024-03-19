@@ -1,0 +1,1 @@
+### Layout e imagens líquidas, e coluna falsa.
